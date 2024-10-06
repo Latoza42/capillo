@@ -1,0 +1,35 @@
+body, html{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header, .footer {
+    background-color: rgb(210, 244, 150);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.sec-right , .sec-left{
+    float: left;
+    width: 50%;
+    
+}
+
+.sec-left{
+    background-color: beige;
+   
+}
+
+.sec-right{
+    background-color: blanchedalmond;
+    width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .sec-right, .sec-left{
+        width: 100%;
+        float: none;
+    }
+    
+}
